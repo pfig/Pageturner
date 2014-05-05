@@ -1,3 +1,5 @@
+*Note: This project is not actively maintained, but open to any pull requests*
+
 # A simple responsive Octopress theme
 
 There isn't a very wide choice of Octopress themes out there, so I decided
@@ -14,9 +16,10 @@ See http://fivetonine.eu
 
 ## Install
 
-	# cd octopress/.themes
-	# git clone https://github.com/elisehein/Pageturner.git
-	# rake install\[Pageturner\]
+From your Octopress root directory:
+
+	# git clone https://github.com/elisehein/Pageturner.git .themes/Pageturner
+	# rake install['Pageturner']
 	# rake generate
 
 ## About
